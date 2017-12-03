@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">RoomBookingSupport</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="hint_tentaikhoan">Tên Tài Khoản</string>
+    <string name="ghinhomatkhau">Ghi nhớ mật khẩu</string>
+    <string name="dangnhap">ĐĂNG NHẬP</string>
+    <string name="datphonghoc">Đặt Phòng Học</string>
+    <string name="datMotPhongMoi">Đặt một phòng mới</string>
+    <string name="phongChoDuyet">phòng chờ duyệt</string>
+    <string name="lichSuDatPhong">Phòng Đã Đặt</string>
+    <string name="title_datmotphongmoi">ĐẶT MỘT PHÒNG MỚI</string>
+    <string name="coso">Cơ Sở</string>
+    <string name="loaiphong">Loại phòng</string>
+    <string name="maPhong">Tên phòng</string>
+    <string name="ngayMuon">Ngày mượn</string>
+    <string name="ngayTra">Ngày trả</string>
+    <string name="gioMuon">Giờ mượn</string>
+    <string name="gioTra">Giờ trả</string>
+    <string name="timKiemNgay">Tìm kiếm NGAY</string>
+    <string name="hintMatKhau">Mật Khẩu</string>
+    <string name="toi_hint"><font size="14">Tới:</font></string>
+    <string name="tu_hint"><font size="14">Chủ đề:</font></string>
+    <string name="noidung_hint"><font size="14">Nội Dung:</font></string>
+
+</resources>

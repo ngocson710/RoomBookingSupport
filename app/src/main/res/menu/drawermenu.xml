@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itTrangChu" android:title="Trang Chủ"
+        android:icon="@drawable/ic_home_black_24dp"></item>
+    <item android:id="@+id/iTimPhong" android:title="Đặt phòng"
+        android:icon="@drawable/ic_search_black_24dp"></item>
+    <item android:id="@+id/itThongBao" android:title="Thông báo"
+        android:icon="@drawable/ic_bell_black_24dp"></item>
+    <item android:id="@+id/itDSPhongDuyet" android:title="Phòng Chờ duyệt"
+        android:icon="@drawable/ic_load_black_24dp"></item>
+    <item android:id="@+id/itLichSuPhong" android:title="Phòng Đã Đặt"
+        android:icon="@drawable/ic_car_check_black_24dp"></item>
+    <item android:id="@+id/itCaiDat" android:title="Cài đặt"
+        android:icon="@drawable/ic_settings_black_24dp"></item>
+    <item android:id="@+id/itDangXuat" android:title="Đăng xuất"
+        android:icon="@drawable/ic_exit_to_app_24dp"></item>
+</menu>

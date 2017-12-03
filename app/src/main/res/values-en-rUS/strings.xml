@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RoomBookingSupport</string>
+    <string name="hint_tentaikhoan">Username</string>
+    <string name="ghinhomatkhau">Remember Password</string>
+    <string name="dangnhap">Login</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="datphonghoc">Make a New Room</string>
+    <string name="datMotPhongMoi">Booking new room</string>
+    <string name="phongChoDuyet">Pending room</string>
+    <string name="lichSuDatPhong">Booking history</string>
+    <string name="title_datmotphongmoi">Make a New Room</string>
+    <string name="hintMatKhau">Password</string>
+</resources>

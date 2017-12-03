@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.n_son.roombookingsupport">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".View.SplashScreen.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".View.DangNhap.DangNhapActivity"></activity>
+        <activity android:name=".View.TrangChu.TrangChuActivity" />
+        <activity
+            android:name=".View.DatPhong.DatPhongActivity"
+            android:label=""
+            android:parentActivityName=".View.TrangChu.TrangChuActivity">
+            <meta-data
+                android:name="android.support.PARENT.ACTIVITY"
+                android:value=".TrangChuActivity" />
+        </activity>
+        <activity android:name=".View.YeuCauDatPhong.YeuCauDatPhongActivity" />
+        <activity android:name=".View.DanhSachDatPhong.PhongDaDat.PhongDaDatActivity" />
+        <activity android:name=".View.DanhSachDatPhong.PhongDangDuyet.PhongDuyetActivity" />
+        <activity android:name=".View.XemChiTet.XemChiTietMainActivity" />
+        <activity android:name=".View.GoiYPhong.PhongGoiYMainActivity" />
+        <activity android:name=".View.ShowPhongTimKiem.ShowPhongTKMainActivity" />
+        <activity android:name=".View.ThongBao.ThongBaotivity" />
+    </application>
+
+</manifest>

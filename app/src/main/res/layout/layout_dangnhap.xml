@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayoutDN"
+    android:background="@drawable/background_rbs_small"
+    android:layout_width="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/edt_matkhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/edittext"
+        android:hint="@string/hintMatKhau"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="#000" />
+    <EditText
+        android:background="@drawable/edittext"
+        android:padding="10dp"
+        android:layout_above="@id/edt_matkhau"
+        android:id="@+id/edt_tentaikhoan"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:hint="@string/hint_tentaikhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:checked="true"
+        android:layout_margin="10dp"
+        android:layout_below="@id/edt_matkhau"
+        android:id="@+id/ck_ghinhomatkhau"
+        android:textStyle="bold"
+        android:textColor="@color/bgtoolbar"
+        android:layout_gravity="center"
+        android:text="@string/ghinhomatkhau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_below="@id/ck_ghinhomatkhau"
+        android:id="@+id/btn_dangnhap"
+        android:background="@drawable/button_trangchu"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:text="@string/dangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="17sp"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="BigBang Team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
